@@ -1,0 +1,106 @@
+body{
+    background-color: rgba(163, 151, 151, 0.589);
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/581/840/933/city-forum-romanum-italy-rome-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#nav-bar{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    flex-direction:row;
+
+}
+#nav-bar header{
+    font-size: 20px;
+    font-style: oblique;
+    height: 100%;
+    text-align: center;
+    margin-top: 4px;
+}
+#nav-bar img{
+    height: 70px;
+    margin-left: 5vw;
+    width: 70px;
+}
+#nav-bar ul{
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    width: 75vw;
+    margin:0 auto;
+    height: 100%;
+}
+#nav-bar li{
+    list-style: none;
+    padding-left: 10px;
+    height: 100%;
+    display: flex;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+    margin-left: 40px;
+}
+#nav-bar li:hover{
+    background-color: rgba(129, 129, 129, 0.856);
+}
+#main{
+    background-color: rgba(255, 255, 255, 0.664);
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+p{
+    font-size: 20px;
+}
+img{
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: auto;
+}
+.ingNum{
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}
+.check{
+    text-align: center;
+}
+#btn{
+    background-color: rgba(184, 184, 184, 0.856);
+    font-size: 20px;
+    border-radius: 8px;
+    box-shadow:0 5px 5px 0  rgb(189, 120, 120);
+}
+#btn:hover{
+    padding-right: 10px;
+}
+a{
+    color: black;
+}
+footer{
+    background-color: rgba(172, 168, 168, 0.788);
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 20px;
+    font-size: 20px;
+    height: auto;
+}
+
+footer ul{
+    list-style: none;
+display: flex;
+flex-direction:row-reverse;
+padding: 10px;
+
+}
+footer li{
+    margin-left: 40px;
+    
+}
